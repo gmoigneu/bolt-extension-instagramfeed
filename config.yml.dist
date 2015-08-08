@@ -1,0 +1,4 @@
+user: test
+password: test
+client_id: test
+cache_lifetime: 7200

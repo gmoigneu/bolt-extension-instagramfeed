@@ -1,0 +1,16 @@
+<div class="instagramfeed">
+    <ul>
+    {% for image in images %}
+        <li>
+            <a href="{{ image.link }}">
+                <figure class="effect-bubba">
+                    <img src="{{ image.images.thumbnail.url }}" alt="{{ image.link }}" />
+                    <figcaption>
+                        <span>Voir</span>
+                    </figcaption>
+                </figure>
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+</div>

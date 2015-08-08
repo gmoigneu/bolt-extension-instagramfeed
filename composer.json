@@ -1,15 +1,16 @@
 {
-    "name": "bolt/bolt-extension-starter",
-    "description": "A description about your extension should go here.",
+    "name": "fsec/instagram-feed",
+    "description": "Add a twig function to display an instagram user feed",
     "type": "bolt-extension",
     "require": {
-        "bolt/bolt": ">=2.0.0,<3.0.0"
+        "bolt/bolt": ">=2.0.0,<3.0.0",
+        "guzzlehttp/guzzle-instagram-subscriber": "dev-master"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Your Name", 
-            "email": "you@example.com"
+            "name": "fsec",
+            "email": "fsec@fsec.pw"
         }
     ],
     "autoload": {
@@ -17,7 +18,7 @@
             "init.php"
         ],
         "psr-4": {
-            "Bolt\\Extension\\Yourname\\Extensionname\\": ""
+            "Bolt\\Extension\\Fsec\\InstagramFeed\\": ""
         }
     },
     
