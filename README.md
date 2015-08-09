@@ -19,7 +19,7 @@ Go to the [Instagram Developer Platform](https://instagram.com/developer/) and r
 Don't forget to uncheck `Disable implicit OAuth`in the security tab of the client.
 
 ### 2. Bolt
-Activate the extension and setup the `instagram-feed.fsec.yml` config file :
+Activate the extension and setup the `instagramfeed.fsec.yml` config file :
 
     username: <your instagram username>
     password: <your password>
