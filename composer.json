@@ -1,5 +1,5 @@
 {
-    "name": "fsec/instagram-feed",
+    "name": "fsec/instagramfeed",
     "description": "Add a twig function to display an instagram user feed",
     "type": "bolt-extension",
     "require": {

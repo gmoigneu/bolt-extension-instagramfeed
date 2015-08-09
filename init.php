@@ -1,5 +1,5 @@
 <?php
 
-use Bolt\Extension\Fsec\InstagramFeed\Extension;
+namespace Bolt\Extension\Fsec\InstagramFeed;
 
 $app['extensions']->register(new Extension($app));
